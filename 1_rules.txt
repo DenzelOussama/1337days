@@ -1,0 +1,15 @@
+* **Tabs only** (tab width = 4 spaces), no spaces for indentation.
+* **Maximum 25 lines** per function.
+* **Maximum 5 variables** per function.
+* **Maximum 4 named parameters** per function.
+* **Maximum 5 functions** per `.c` file.
+* **Declare variables at the top** of the function.
+* **Leave one empty line** after declarations before the code.
+* **One variable per line** (`int a; int b;`, not `int a, b;`).
+* **No declaration and initialization together** (`int i; i = 0;`, not `int i = 0;`).
+* **Maximum 80 characters** per line.
+* **Use `snake_case`** for names.
+* **Prefixes:** `s_` (struct), `t_` (typedef), `e_` (enum), `u_` (union), `g_` (global).
+* **Forbidden:** `for`, `switch`, `case`, `goto`, `do...while`, ternary (`?:`), VLAs.
+* **Code must compile** before the Norm matters.
+* **Run `norminette`** on every file you write.
